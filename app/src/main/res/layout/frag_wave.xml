@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.de.rocket.ue.layout.PercentRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#38a9f9"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.de.rocket.ue.layout.PercentRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:layout_marginTopPercent="20%w"
+        app:layout_widthPercent="50%w"
+        app:layout_heightPercent="50%w">
+
+        <com.yhd.hdwave.WaveView
+            android:id="@+id/wave_top"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:wa_borderWidth="30"
+            app:wa_borderColor="#3a83f2"
+            app:wa_background="#3a83f2"
+            app:wa_frontColor="#aa39ee9d"
+            app:wa_behindColor="#aa39ee9d"
+            app:wa_amplitudeRatio="0.06"
+            app:wa_frequency="1"
+            app:wa_shape="circle"
+            app:wa_heightRatio="0.3"
+            app:wa_shiftTime="8000"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="30%"
+            android:textColor="@color/colorWhite"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            app:layout_textSizePercent="25%w"
+            tools:ignore="HardcodedText" />
+
+    </com.de.rocket.ue.layout.PercentRelativeLayout>
+
+    <com.yhd.hdwave.WaveView
+        android:id="@+id/wave"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:wa_behindColor="#AAFFFFFF"
+        app:wa_frontColor="#AAFFFFFF"
+        app:wa_amplitudeRatio="0.07"
+        app:wa_frequency="1"
+        app:wa_heightRatio="0.9"
+        app:wa_shiftTime="8000"
+        app:wa_heightTime="1000"
+        app:wa_shape="square"
+        app:wa_borderWidth="0"
+        app:layout_heightPercent="40%h"/>
+    
+</com.de.rocket.ue.layout.PercentRelativeLayout>

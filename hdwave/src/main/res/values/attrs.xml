@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--双波浪-->
+    <declare-styleable name="WaveView">
+        <!--波形的形状:方形或者圆形-->
+        <attr name="wa_shape" format="enum">
+            <enum name="circle" value="0" />
+            <enum name="square" value="1" />
+        </attr>
+        <!--波形的高度比例-->
+        <attr name="wa_heightRatio" format="float" />
+        <!--波形振幅比例-->
+        <attr name="wa_amplitudeRatio" format="float" />
+        <!--两个波形间距比例-->
+        <!--<attr name="wa_distanceRatio" format="float" />-->
+        <!--画布横向容纳的波形个数-->
+        <attr name="wa_frequency" format="integer" />
+        <!--前波形颜色-->
+        <attr name="wa_frontColor" format="color" />
+        <!--后波形颜色-->
+        <attr name="wa_behindColor" format="color" />
+        <!--波形水平平移动画的时间ms-->
+        <attr name="wa_shiftTime" format="integer" />
+        <!--波形高度平移动画时间-->
+        <attr name="wa_heightTime" format="integer" />
+        <!--外边宽度(像素)-->
+        <attr name="wa_borderWidth" format="integer" />
+        <!--外边颜色-->
+        <attr name="wa_borderColor" format="color" />
+        <!--背景颜色-->
+        <attr name="wa_background" format="color" />
+    </declare-styleable>
+</resources>
