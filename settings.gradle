@@ -1,1 +1,1 @@
-include ':app', ':hdwave'
+include ':app', ':wave'

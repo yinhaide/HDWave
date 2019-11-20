@@ -1,4 +1,4 @@
-package com.yhd.hdwave;
+package com.yhd.wave;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;

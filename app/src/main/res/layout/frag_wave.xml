@@ -14,7 +14,7 @@
         app:layout_widthPercent="50%w"
         app:layout_heightPercent="50%w">
 
-        <com.yhd.hdwave.WaveView
+        <com.yhd.wave.WaveView
             android:id="@+id/wave_top"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -41,7 +41,7 @@
 
     </com.de.rocket.ue.layout.PercentRelativeLayout>
 
-    <com.yhd.hdwave.WaveView
+    <com.yhd.wave.WaveView
         android:id="@+id/wave"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
