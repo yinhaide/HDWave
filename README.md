@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 # HDWave
-一个非常轻量级别的双波浪控件，内部自动管理动画生命周期，无需开发者干涉，可用户流量波动，电量波动等比较炫酷的波动场景。
+一个非常轻量级别的双波浪控件，内部自动管理动画生命周期，无需开发者干涉，可用于流量波动，电量波动等比较炫酷的波动场景。
 
 <img src="image/wave.gif" width = "360px"/>
 
