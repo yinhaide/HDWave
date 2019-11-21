@@ -127,7 +127,9 @@ public void setBorderWidth(int width): 建议0
 + 第四步: 平移变换（开启平移动画，在波长的倍数下周期横向平移）
 
 ## 写在最后... 
-> 这个控件内部采用一个Fragment框架，如果有兴趣的话可以去了解一下
+> 都看到这里了，如果觉得写的可以或者对你有帮助的话，给个星星点下Star呗~
+
+这个控件内部采用一个Fragment框架，如果有兴趣的话可以去了解一下
 + https://github.com/yinhaide/Rocket-master
 
 ## LICENSE
