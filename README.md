@@ -130,7 +130,7 @@ public void setBorderWidth(int width): 建议0
 > 都看到这里了，如果觉得写的可以或者对你有帮助的话，顺手给个星星点下Star~
 
 这个控件内部采用一个Fragment框架，如果有兴趣的话可以去了解一下
-+ https://github.com/yinhaide/Rocket-master
++ [https://github.com/yinhaide/Rocket-master](https://github.com/yinhaide/Rocket-master)
 
 ## 关于我
 + **Email:** [123302687@qq.com](123302687@qq.com)
