@@ -126,11 +126,17 @@ public void setBorderWidth(int width): 建议0
 + 第三部：伸缩变换（正弦曲线在数值方向做压缩变换，改变振幅大小）
 + 第四步: 平移变换（开启平移动画，在波长的倍数下周期横向平移）
 
-## 写在最后... 
-> 都看到这里了，如果觉得写的可以或者对你有帮助的话，给个星星点下Star呗~
+## 这个项目会持续更新中... 
+> 都看到这里了，如果觉得写的可以或者对你有帮助的话，顺手给个星星点下Star~
 
 这个控件内部采用一个Fragment框架，如果有兴趣的话可以去了解一下
 + https://github.com/yinhaide/Rocket-master
+
+## 关于我
++ **Email:** [123302687@qq.com](123302687@qq.com)
++ **Github:** [https://github.com/yinhaide](https://github.com/yinhaide)
++ **简书:** [https://www.jianshu.com/u/33c3dd2ceaa3](https://www.jianshu.com/u/33c3dd2ceaa3)
++ **CSDN:** [https://blog.csdn.net/yinhaide](https://blog.csdn.net/yinhaide)
 
 ## LICENSE
 ````
