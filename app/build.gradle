@@ -55,9 +55,9 @@ android {
             def buildType = variant.buildType.name
             def time = new Date().format("yyyyMMdd", TimeZone.getTimeZone("GMT+08:00"))
             if (variant.buildType.name == 'debug') {
-                outputFileName = "rocket_${versionName}_c${versionCode}_${buildType}.apk"
+                outputFileName = "wave_${versionName}_c${versionCode}_${buildType}.apk"
             } else {
-                outputFileName = "rocket_${versionName}_${time}_${buildType}.apk"
+                outputFileName = "wave_${versionName}_${time}_${buildType}.apk"
             }
         }
     }
@@ -73,6 +73,6 @@ dependencies {
     /* ******* 工程依赖 ******** */
     //api 'com.github.yinhaide:HDWave:0.0.1'
     api project(':wave')
-    // 架构包,单Activity多Fragment框架(https://github.com/yinhaide/Rocket-master),想要Android进阶的童鞋，非常值得推荐学习~
-    api 'com.github.yinhaide:Rocket-master:0.0.2'
+    // 架构包,单Activity多Fragment框架(https://github.com/yinhaide/HDRocket),想要Android进阶的童鞋，非常值得推荐学习~
+    api 'com.github.yinhaide:HDRocket:0.0.4'
 }
