@@ -63,6 +63,12 @@ android {
     }
 }
 
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
 dependencies {
     /* ******* 统一基础包 ******** */
     api fileTree(dir: 'libs', include: ['*.jar'])
@@ -74,5 +80,6 @@ dependencies {
     //api 'com.github.yinhaide:HDWave:0.0.1'
     api project(':wave')
     // 架构包,单Activity多Fragment框架(https://github.com/yinhaide/HDRocket),想要Android进阶的童鞋，非常值得推荐学习~
-    api 'com.github.yinhaide:HDRocket:0.0.4'
+    //api 'com.github.yinhaide:HDRocket:0.0.4'
+    api(name: library.rocket, ext: 'aar')
 }
